@@ -14,7 +14,8 @@ docker build -t vananhlebarca/docker-airflow-kedro .
 ## Usage
 
 ```
-docker run -d -p 8080:8080 -v ./dags:/usr/local/airflow/dags vananhlebarca/docker-airflow-kedro-dependencies webserver
+docker run -d -p 8080:8080 -v /path/to/dags/on/your/local/machine/:/usr/local/airflow/dags vananhlebarca/docker-airflow-kedro-dependencies webserver
+
 ```
 ## UI link
 Airflow: localhost:8080
