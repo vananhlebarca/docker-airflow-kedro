@@ -1,5 +1,5 @@
 # docker-airflow-kedro
-This repository contains Dockerfile of apache-airflow, kedro and Kedro-airflow for Docker's automated build published to the public Docker Hub Registry.
+This repository contains Dockerfile of apache-airflow, kedro and Kedro-airflow for Docker's automated build published to the public [Docker Hub Registry](https://hub.docker.com/repository/docker/vananhlebarca/docker-airflow-kedro).
 
 # Installation
 ```
