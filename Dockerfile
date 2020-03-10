@@ -69,7 +69,6 @@ RUN set -ex \
     && apt-get autoremove -yqq --purge \
     && apt-get clean
 
-
 RUN rm -rf \
         /var/lib/apt/lists/* \
         /tmp/* \
@@ -77,8 +76,6 @@ RUN rm -rf \
         /usr/share/man \
         /usr/share/doc \
         /usr/share/doc-base
-
-
 
 COPY script/entrypoint.sh /entrypoint.sh
 COPY config/airflow.cfg ${AIRFLOW_USER_HOME}/airflow.cfg
