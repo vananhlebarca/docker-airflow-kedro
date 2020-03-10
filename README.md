@@ -9,4 +9,12 @@ docker pull vananhlebarca/docker-airflow-kedro
 # Build
 ```
 docker build -t vananhlebarca/docker-airflow-kedro .
+```
 
+# Usage
+
+```
+docker run -d -p 8080:8080 -v ./dags:/usr/local/airflow/dags vananhlebarca/docker-airflow-kedro-dependencies webserver
+```
+# UI link
+Airflow: localhost:8080
